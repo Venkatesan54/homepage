@@ -95,18 +95,3 @@ h1{
     color:white;
     box-shadow: 0 0 50px #FF0F77;
 }
-
-/* 
-@media screen and (min-width:300px) and (max-width:750px) {
-    .nav-bar{
-        display:flex;
-         flex-direction:column;
-         width:200%;
-         height:200vh;
-         font-size:inherit;
-     }
-
-    #home h1{
-        color: #FF0F77;
-    }
-} */
