@@ -96,7 +96,7 @@ h1{
     box-shadow: 0 0 50px #FF0F77;
 }
 
-
+/* 
 @media screen and (min-width:300px) and (max-width:750px) {
     .nav-bar{
         display:flex;
@@ -109,4 +109,4 @@ h1{
     #home h1{
         color: #FF0F77;
     }
-}
+} */
