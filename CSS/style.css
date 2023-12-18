@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    border: 2px solid;
+    height: 100vh;
+    background-image: url(/image/pxfuel.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: 20px;
+}
+nav ul{
+    list-style-type:none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0px;
+    transform: scale(1.5);
+}
+nav ul li a:hover{
+    color:white ;
+    transition: .5 ease;
+    box-shadow:0 0 20px white;
+    background-color: transparent;
+}
+h2{
+    color:#FF0F77;
+    letter-spacing: 2px;
+    font-size:25px;
+}
+span{
+    color: white;
+}
+
+#home{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+
+h3{
+    font-size: 20px;
+    font-family: cursive;
+    color: white;
+}
+
+h1{
+    font-size: 75px;
+    color:#00FF0E ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 8px;
+}
+
+#home h2{
+    color:white;
+    margin-bottom: 20px;
+}
+
+.login input:first-child{
+    width: 70%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size:15px;
+    box-sizing: border-box;
+}
+.login input:last-child{
+    border-radius: 20px;
+    position: relative;
+    right: 75px;
+    padding: 5px;
+    box-sizing: border-box;
+    color:white;
+    background-color:#FF0F77;
+    text-transform: uppercase;
+}
+
+.login input:last-child:hover{
+    color:white;
+    box-shadow: 0 0 50px #FF0F77;
+}
+
+
+@media screen and (min-width:300px) and (max-width:750px) {
+    .nav-bar{
+        display:flex;
+         flex-direction:column;
+         width:200%;
+         height:200vh;
+         font-size:inherit;
+     }
+
+    #home h1{
+        color: #FF0F77;
+    }
+}
